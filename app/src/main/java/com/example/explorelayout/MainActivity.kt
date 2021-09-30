@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
 //        setContentView(R.layout.activity_main)
     }
 
-    fun linearLayout(v: View) {
+    fun loadLinearLayout(v: View) {
         setContentView(R.layout.linear_layout)
     }
 
@@ -19,6 +19,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loadTableLayout(v: View) {
-        setContentView(R.layout.table_view)
+        setContentView(R.layout.table_layout)
     }
 }
