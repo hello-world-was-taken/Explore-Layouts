@@ -4,71 +4,75 @@
     android:layout_height="match_parent">
 
     <TableRow
+        android:id="@+id/rowOne"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/one_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/one_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/one_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView" />
     </TableRow>
 
     <TableRow
+        android:id="@+id/rowTwo"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/two_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/two_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/two_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView" />
     </TableRow>
 
     <TableRow
+        android:id="@+id/rowThree"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/three_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/three_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/three_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView" />
     </TableRow>
+
 </TableLayout>
