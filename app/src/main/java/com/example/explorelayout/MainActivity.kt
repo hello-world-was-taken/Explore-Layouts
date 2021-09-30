@@ -13,4 +13,12 @@ class MainActivity : AppCompatActivity() {
     fun linearLayout(v: View) {
         setContentView(R.layout.linear_layout)
     }
+
+    fun loadConstraintLayout(v: View) {
+        setContentView(R.layout.activity_main)
+    }
+
+    fun loadTableLayout(v: View) {
+        setContentView(R.layout.table_view)
+    }
 }
