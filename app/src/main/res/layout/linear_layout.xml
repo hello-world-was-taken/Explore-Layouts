@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="15">
+    android:padding="15sp">
 
     <TextView
         android:id="@+id/textView"
@@ -62,6 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
+            android:onClick="loadTableLayout"
             android:text="LOAD" />
     </LinearLayout>
 
